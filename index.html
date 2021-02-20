@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"
+		/>
+		<meta
+			name="description"
+			content="비스포크 월 구독 어학서비스! 나에게 맞는 어학콘텐츠를 구독하세요."
+		/>
+		<meta
+			name="keywords"
+			content="마이풀, 조승연, 영어, 토익, 중국어, 비스포크, 마풀영어, 마풀중국어"
+		/>
+		<meta property="og:url" content="https://imypool.kr" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="마이풀-영어 중국어 토익을 한번에" />
+		<meta
+			property="og:description"
+			content="지금 마이풀에 회원가입하면 1개월 무료!"
+		/>
+		<meta property="og:image" content="표시되는 이미지" />
+		<meta name="twitter:card" content="summary" />
+
+		<title>마이풀-영어 중국어 토익을 한번에</title>
+
+		<link rel="shortcut icon" href="이미지경로" type="image/x-icon" />
+		<link rel="icon" href=="이미지경로" type="image/x-icon" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="./main.css" />
+	</head>
+
+	<body>
+		<div class="body_container">
+			<section class="section section_intro display_flex_center">
+				<header>
+					<a href="/">
+						<img
+							class="header_mypool"
+							src="./assets/logo_kr.png"
+							alt="마이풀"
+						/>
+					</a>
+					<a
+						href="https://sbss.imypool.kr/addService/mypoolMain"
+						target="_blank"
+						><img
+							class="header_skt"
+							src="./assets/skt_service.png"
+							alt="SKT부가서비스"
+					/></a>
+				</header>
+				<h2>마이풀 앱 런칭 <span>첫 Event!</span></h2>
+				<h1>이제는 어학도 <span>비스포크 시대</span></h1>
+				<h1>
+					<span>전국민 어학앱!</span>
+					<img src="./assets/logo_kr.png" alt="마이풀" />
+					<span> 구독서비스 실시!</span>
+				</h1>
+			</section>
+
+			<section class="section section_event">
+				<main class="section_event_bg">
+					<div class="event_title_group">
+						<div class="event_title_line"></div>
+						<h1 class="event_title_first">
+							<span>지금,</span> <img src="./assets/crown.png" alt="" />
+						</h1>
+						<h1><span>회원가입</span> 하면</h1>
+						<h1><span>1개월</span> 구독서비스</h1>
+						<h1><span>무료</span> 증정</h1>
+					</div>
+					<div class="event_content_group">
+						<h3><span>맞춤형</span> 구독서비스</h3>
+						<h3>지금 시작하세요!</h3>
+						<h3>무료구독권 받기 Click!</h3>
+					</div>
+					<div class="download_group">
+						<a
+							href="https://play.google.com/store/apps/details?id=com.mypool"
+							target="_blank"
+						>
+							<img src="./assets/google_btn.png" alt="playstore"
+						/></a>
+						<a
+							href="https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4%ED%92%80-%EC%98%81%EC%96%B4-%EC%A4%91%EA%B5%AD%EC%96%B4-%ED%86%A0%EC%9D%B5%EC%9D%84-%ED%95%9C%EB%B2%88%EC%97%90/id1547568215"
+							target="_blank"
+						></a>
+						<img src="./assets/apple_btn.png" alt="appstore" />
+					</div>
+				</main>
+			</section>
+
+			<section class="section section_subscribe_service">
+				<article class="service_wrapper">
+					<div>
+						<img
+							class="img_phone_mypool"
+							src="./assets/phone_mypool.png"
+							alt="마이풀"
+						/>
+						<img
+							class="img_phone_mypool"
+							src="./assets/phone_mypool2.png"
+							alt="마이풀"
+						/>
+					</div>
+					<div class="content">
+						<h1>
+							어학앱 <span class="emphasis">최초</span><span>!</span> 구독서비스
+							<span class="emphasis">출시</span><span>!</span>
+						</h1>
+						<h2>전국민 어학앱이 되기 위한 첫 발걸음.</h2>
+						<h2>마이풀 <span>1개월 구독서비스</span>를</h2>
+						<h2>지금 회원가입하신 <span>모든분께 제공</span>합니다.</h2>
+					</div>
+				</article>
+
+				<article class="mypool_puzzle">
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+					</div>
+					<h1>이제는 어학도 <span>비스포크 시대!</span></h1>
+					<img class="img_puzzle" src="./assets/puzzle.png" alt="" />
+					<div class="mypool_puzzle_content">
+						<h2>나만의 어학 <span>퍼즐</span>을 맞추다!</h2>
+						<h2><span>공부가 쉬워지는</span> 어학앱 <span>마이풀!</span></h2>
+					</div>
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+					</div>
+				</article>
+			</section>
+
+			<section class="section section_reasonable">
+				<div class="section_reasonable_title display_flex_center">
+					<img class="img_quotaion_top" src="./assets/quotation.png" alt="" />
+					<h1>나에게 <span>맞춤형 강의</span>를!</h1>
+					<h1><span>합리적인 가격</span> 으로! <span>편하게!</span></h1>
+					<img
+						class="img_quotaion_bottom"
+						src="./assets/quotation.png"
+						alt=""
+					/>
+				</div>
+				<div class="lang_img_group">
+					<div class="eng_wrapper">
+						<div class="eng"></div>
+						<p>영어</p>
+					</div>
+					<div class="cn_wrapper">
+						<div class="cn"></div>
+						<p>중국어</p>
+					</div>
+					<div class="toeic_wrapper">
+						<div class="toeic"></div>
+						<p>토익</p>
+					</div>
+				</div>
+				<div class="cost_group display_flex_center">
+					<div class="cost_line"></div>
+					<div>
+						<h2><span>영어 * 중국어 * 토익</span> 한번에! 모든 강의 수강</h2>
+						<h1>1개월 구독서비스 비용 <span>14,900원</span></h1>
+						<h1><span>하루 약 500원</span> 수강가능!</h1>
+					</div>
+				</div>
+				<article class="mypool_habit">
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+					</div>
+					<div class="content">
+						<h1><strong>재미</strong>가 더해져</h1>
+						<h1><span>습관</span>이 될 수 밖에 없는</h1>
+						<h1><span>완벽 </span><strong>맞춤 강의!</strong></h1>
+					</div>
+					<div class="habit_wrapper">
+						<img src="./assets/habit_morning.png" alt="" />
+						<div>
+							<h1>아침에 일어나</h1>
+							<strong>잠깐!</strong>
+						</div>
+					</div>
+					<div class="habit_wrapper">
+						<img src="./assets/habit_moving.png" alt="" />
+						<div>
+							<h1>움직이는 이동시간</h1>
+							<strong>잠깐!</strong>
+						</div>
+					</div>
+					<div class="habit_wrapper">
+						<img src="./assets/habit_sleep.png" alt="" />
+						<div>
+							<h1>저녁 잠들기 전</h1>
+							<strong>잠깐!</strong>
+						</div>
+					</div>
+					<div class="with_mypool">
+						<img src="./assets/logo_kr.png" alt="마이풀" />
+						&nbsp;과 함께 하세요!
+					</div>
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+					</div>
+				</article>
+			</section>
+
+			<section class="section section_answer">
+				<article class="questions_answers">
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_top"></div>
+							<div class="square_top"></div>
+						</div>
+					</div>
+
+					<div class="content">
+						<strong>수많은 물음에</strong> 대한 <br />해답,
+						<strong>마이풀</strong>이 <br />찾았습니다.
+					</div>
+					<div class="questions_wrapper question1">
+						어학 강의는 1개월씩 <br/ > 수강하면 비싸던데..
+					</div>
+					<div class="questions_wrapper question2">
+						어학 강의는 왜 1년? <br />
+						평생...?
+					</div>
+					<div class="questions_wrapper question3">
+						하루 강의 듣고 <br />맘에 안들어.. 그럼 내돈은?
+					</div>
+					<div class="questions_wrapper question4">
+						사은품에 이끌려 충동구매... <br />사은품 받아서 환불이 안 돼요?
+					</div>
+
+					<div class="answer_mypool display_flex_center">
+						<h1>결국에 <strong>정답</strong>은</h1>
+						<img src="./assets/answer_mypool.png" alt="" />
+					</div>
+					<div class="square_group_wrapper">
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+						<div class="square_group">
+							<div class="square_bottom"></div>
+							<div class="square_bottom"></div>
+						</div>
+					</div>
+				</article>
+				<div class="curriculum_wrapper">
+					<h1>탄탄한 커리큘럼!</h1>
+					<h2>1일 1강 <span>꾸준한 공부 습관 </span> 만들기</h2>
+					<h2>불편하고 지루한 인강은 이제 그만!</h2>
+					<h2>이제 어학도 <span>비스포크</span> 하세요!</h2>
+				</div>
+			</section>
+
+			<section class="section section_service_detail">
+				<div class="section_content_wrapper">
+					<main>
+						<article class="display_flex_center mypool_learning">
+							<h1>마이풀만의 장기기억 학습법</h1>
+							<h2>인지과학자가 추천한 마이풀만의 스마트러닝 학습법</h2>
+							<img
+								class="img_smart_learning"
+								src="./assets/smart_learning.png"
+								alt="마이풀 학습법"
+							/>
+							<img
+								class="img_compare_ab"
+								src="./assets/compare_ab.png"
+								alt=""
+							/>
+							<h3>국내 최초 강의와 퀴즈를 접목시킨 ‘마이풀 스마트러닝’</h3>
+							<p>
+								*연구 발췌: Make It Stick ; The Science of Successful Learning
+								<br />
+								(Peter C. Brown, Henry L. Roediger, Mark A. McDaniel)
+							</p>
+						</article>
+						<article class="display_flex_center mypool_static">
+							<h1>방대한 양의 강의 및 퀴즈 수</h1>
+							<h2>2020년 8월 기준 2,095개 강의 및 24,309개 퀴즈 수록</h2>
+							<img
+								class="img_graph"
+								src="./assets/graph.png"
+								alt="마이풀 강의 타사 비교"
+							/>
+						</article>
+					</main>
+				</div>
+			</section>
+
+			<section class="section customized_course">
+				<div class="section_content_wrapper">
+					<main>
+						<h1><span>맞춤형</span> 과정 찾기</h1>
+						<h2>
+							몇 번의 단계만 거치면 내가 원하는 <br />
+							<span>나만의 과정을 설정</span>합니다.
+						</h2>
+						<h3>
+							영어,중국어,토익 어떤 과목이든<br />
+							회화,문법,발음 어떤 영역이든<br />
+							생활,문화,비즈니스 어떤 관심사든
+						</h3>
+					</main>
+					<aside>
+						<img src="./assets/customizing1.png" alt="마이풀 맞춤형 과정" />
+						<img src="./assets/customizing2.png" alt="마이풀 맞춤형 과정" />
+					</aside>
+				</div>
+			</section>
+
+			<section class="section level_test">
+				<div class="section_content_wrapper">
+					<aside>
+						<img src="./assets/level1.png" alt="마이풀 레벨 진단" />
+						<img src="./assets/level2.png" alt="마이풀 레벨 진단" />
+					</aside>
+					<main>
+						<h1><span>나의 </span><span>레벨 </span>진단</h1>
+						<h2>
+							정확한 <span>레벨 진단</span>은 첫 단추! <br />
+							분석 리포트 제공
+						</h2>
+						<h3>
+							학습하고자 하는 과목의 현 실력을 진단하고 <br />
+							이에 맞는 솔루션을 제시합니다. <br />
+							마이풀은 목표 달성을 위한 첫 단추를 <br />
+							정확히 채워드리고자 합니다.
+						</h3>
+					</main>
+				</div>
+			</section>
+
+			<section class="section habit">
+				<div class="section_content_wrapper">
+					<main>
+						<h1><span>외국어 공부</span>는 <span>습관</span>이다!</h1>
+						<h2>
+							자기 주도 학습을 돕는 <br />
+							<span>학습 알림 설정 </span> 기능
+						</h2>
+						<h3>
+							본인의 학습 패턴에 맞춰 학습 분량, 일정 등을 <br />
+							설정하면 일정에 맞춰 알림을 드립니다.<br />
+							부담 없이 알림에 맞춰 공부하다 보면 <br />
+							어느새 어학이 습관되어 있답니다.
+						</h3>
+					</main>
+					<aside>
+						<img src="./assets/habit1.png" alt="마이풀 자기주도학습" />
+						<img src="./assets/habit2.png" alt="마이풀 자기주도학습" />
+					</aside>
+				</div>
+			</section>
+
+			<section class="section maximized_effect">
+				<div class="section_content_wrapper">
+					<aside>
+						<img src="./assets/maximizing1.png" alt="마이풀 학습효과 극대화" />
+						<img src="./assets/maximizing2.png" alt="마이풀 학습효과 극대화" />
+					</aside>
+					<main>
+						<h1><span>학습효과</span> 극대화</h1>
+						<h2>
+							인지과학 학습법을 기초한 <br />
+							<span>‘장기기억 전환’</span> 학습 프로세스
+						</h2>
+						<h3>
+							동영상 강의 시청만으론 학습 효과에 <br />
+							한계가 있습니다. 인지과학자들이 입증한 <br />
+							학습 방식인 ‘강의->문제->연습’<br />
+							프로세스를 적용해 학습효과를 극대화 합니다.
+						</h3>
+					</main>
+				</div>
+			</section>
+
+			<section class="section funny">
+				<div class="section_content_wrapper">
+					<main>
+						<h1>
+							<span>어학</span>에 <br />
+							<span>재미</span>를 더하다
+						</h1>
+						<h2>다양한 동기부여와 재미 요소를 <br />활용해 보세요</h2>
+						<h3>
+							<span>커뮤니티 기능</span> 을 통해 학습 내용과 다양한 <br />
+							관심사 등을 공유하고 소통할 수 있습니다.<br />
+							강의 수강과 출석 등에 따라 <br />
+							다양한 포인트 적립이 가능하며 <br />
+							구독료에 사용이 가능합니다.
+						</h3>
+					</main>
+					<aside>
+						<img src="./assets/funny1.png" alt="마이풀 동기 부여" />
+						<img src="./assets/funny2.png" alt="마이풀 동기 부여" />
+					</aside>
+				</div>
+			</section>
+
+			<section class="section choice_review">
+				<div class="section_content_wrapper display_flex_center">
+					<h1>
+						<span>마이풀!</span> 더 이상 망설일 이유가 없는
+						<span>선택</span>입니다.
+					</h1>
+					<div class="video_wrapper">
+						<iframe
+							class="videos video_choice"
+							width="100%"
+							height="100%"
+							src="https://www.youtube.com/embed/M8UoRnSFlr0"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</div>
+					<h1>
+						학습효과 직접 경험한 <span>수강생들의 후기</span>를 확인해 보세요.
+					</h1>
+					<div class="review_group">
+						<div class="review_wrapper review_eng">
+							<div class="review_text">
+								<h2>성인 영어는 역시 마이풀!</h2>
+								<p>
+									직장일과 살림을 같이 하느라 시간이 <br />
+									많이 부족한데, 아침 저녁 짬 날 때마다<br />
+									앱으로 간편하게 공부할 수 있어서<br />
+									너무 좋아요! 마이풀 최고!
+								</p>
+							</div>
+							<div class="review_name_group eng">
+								<img
+									class="icon_stars"
+									src="./assets/review_stars.png"
+									alt=""
+								/>
+								<h3>마이풀 영어 3개월 수강 중 <br />도하나 (워킹맘)</h3>
+							</div>
+						</div>
+						<div class="review_wrapper review_cn">
+							<div class="review_text">
+								<h2>중국어 기초는 무조건 마이풀이죠!</h2>
+								<p>
+									중국어에 도전해보고 싶어서 여러 <br />
+									강의를 들어봤는데, 마이풀만큼 쉽고 <br />
+									만족스러웠던 강의가 없었어요. <br />
+									마이풀을 듣고 나서 중국어 회화에 <br />
+									자신감이 생겼어요!
+								</p>
+							</div>
+							<div class="review_name_group cn">
+								<img
+									class="icon_stars"
+									src="./assets/review_stars.png"
+									alt=""
+								/>
+								<h3>
+									마이풀 중국어 2개월 수강 중<br />
+									정채훈 (피아니스트)
+								</h3>
+							</div>
+						</div>
+						<div class="review_wrapper review_toeic">
+							<div class="review_text">
+								<h2>강의와 문제풀이를 한번에!</h2>
+								<p>
+									다른 인강은 강의 따로 문제집 따로 <br />
+									제공되는데, 마이풀은 강의와 <br />
+									문제가 동시에 제공돼서 너무 좋아요!
+								</p>
+							</div>
+							<div class="review_name_group toeic">
+								<img
+									class="icon_stars"
+									src="./assets/review_stars.png"
+									alt=""
+								/>
+								<h3>마이풀 토익 1개월 수강 중 <br />한기웅 (대학생)</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
