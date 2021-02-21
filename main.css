@@ -434,8 +434,10 @@ button:focus {
 	height: 200px;
 	border-radius: 50%;
 	background-image: url(./assets/woman_eng.png);
-	background-position: center;
+	background-position: left;
 	margin: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .cn_wrapper .cn {
 	width: 200px;
@@ -443,6 +445,8 @@ button:focus {
 	border-radius: 50%;
 	background-image: url(./assets/woman_cn.png);
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 5px;
 }
 .toeic_wrapper .toeic {
@@ -451,6 +455,8 @@ button:focus {
 	border-radius: 50%;
 	background-image: url(./assets/woman_toeic.png);
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 5px;
 }
 .cost_line {
