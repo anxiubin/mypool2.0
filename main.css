@@ -69,6 +69,7 @@ header {
 	-ms-flex-align: center;
 	align-items: center;
 	width: 100%;
+	max-width: 1080px;
 }
 header .header_mypool {
 	width: 84px;
@@ -110,7 +111,7 @@ button:focus {
 .section {
 	background-color: #fff;
 	margin: auto;
-	padding: 150px 100px;
+	padding: 70px;
 }
 .display_flex_center {
 	display: -webkit-box;
@@ -192,7 +193,7 @@ button:focus {
 /****************** EVENT ******************/
 
 .section_event {
-	padding: 150px 100px 0;
+	padding: 70px 70px 0;
 }
 .section_event_bg {
 	background-image: url(./assets/model.png);
@@ -260,7 +261,7 @@ button:focus {
 
 .section.section_subscribe_service {
 	background-color: #ff541f;
-	padding: 150px 30px;
+	padding: 70px 30px;
 }
 .section_subscribe_service .service_wrapper {
 	display: -webkit-box;
@@ -278,6 +279,7 @@ button:focus {
 	margin: 5px;
 }
 .section_subscribe_service .content {
+	color: #fff;
 	margin-left: 30px;
 }
 .section_subscribe_service .content h1 {
@@ -287,11 +289,11 @@ button:focus {
 }
 .section_subscribe_service .content h1 span.emphasis {
 	-webkit-text-emphasis: ".";
-	-webkit-text-emphasis-color: #fff;
+	-webkit-text-emphasis-color: #fff18e;
 }
 .section_subscribe_service .content h1 span,
 .section_subscribe_service .content h2 span {
-	color: #fff;
+	color: #fff18e;
 	font-weight: 700;
 }
 .section_subscribe_service .content h2 {
@@ -367,6 +369,7 @@ button:focus {
 	background-color: #f6673b;
 }
 .section_reasonable_title {
+	color: #fff;
 	margin: 70px 0;
 }
 .section_reasonable_title h1 {
@@ -376,7 +379,7 @@ button:focus {
 }
 .section_reasonable_title h1 span {
 	font-weight: 900;
-	color: #fff;
+	color: #fef4a5;
 }
 .img_quotaion_top {
 	margin-bottom: 70px;
@@ -457,15 +460,15 @@ button:focus {
 .cost_group {
 	font-size: 37px;
 	line-height: 70px;
-	color: #353537;
+	color: #fff;
 	text-align: center;
 }
 .cost_group h2 span {
-	color: #fff;
+	color: #fef4a5;
 }
 .cost_group h1 span {
 	font-size: 54px;
-	color: #fff;
+	color: #fef4a5;
 	font-weight: 700;
 }
 .mypool_habit {
@@ -500,6 +503,8 @@ button:focus {
 	align-items: center;
 	font-size: 37px;
 	padding: 20px;
+	max-width: 768px;
+	margin: auto;
 }
 .habit_wrapper div {
 	width: 50%;
@@ -622,15 +627,16 @@ button:focus {
 }
 .curriculum_wrapper h1 {
 	font-size: 70px;
-	color: #fff;
+	font-weight: 900;
+	color: #fef4a5;
 }
 .curriculum_wrapper h2 {
 	font-size: 33px;
-	color: #353537;
+	color: #fff;
 	margin-top: 40px;
 }
 .curriculum_wrapper h2 span {
-	color: #fff;
+	color: #fef4a5;
 }
 /***************** CUSTOMIZED & HABIT & FUNNY ******************/
 
@@ -1147,7 +1153,7 @@ button:focus {
 		max-width: 450px;
 	}
 	.section.section_subscribe_service {
-		padding: 100px 30px;
+		padding: 70px 30px;
 	}
 	.section_subscribe_service .service_wrapper {
 		-webkit-box-orient: vertical;
@@ -1181,11 +1187,11 @@ button:focus {
 		line-height: 40px;
 	}
 	.cost_group {
-		font-size: 30px;
-		line-height: 50px;
+		font-size: 18px;
+		line-height: 25px;
 	}
 	.cost_group h1 span {
-		font-size: 40px;
+		font-size: 25px;
 	}
 	.mypool_habit {
 		font-size: 30px;
