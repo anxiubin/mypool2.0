@@ -1173,12 +1173,18 @@ button:focus {
 	.mypool_puzzle_content {
 		margin: 40px 0;
 	}
+	.img_puzzle {
+		width: 100%;
+	}
 	.section_reasonable_title h1 {
 		font-size: 25px;
 		line-height: 35px;
 	}
-	.img_puzzle {
-		width: 100%;
+	.eng_wrapper div,
+	.cn_wrapper div,
+	.toeic_wrapper div {
+		width: 150px;
+		height: 150px;
 	}
 	.cost_group {
 		font-size: 18px;
@@ -1216,8 +1222,13 @@ button:focus {
 	.questions_wrapper {
 		font-size: 30px;
 	}
-
-	/* renewal */
+	.curriculum_wrapper h1 {
+		font-size: 40px;
+	}
+	.curriculum_wrapper h2 {
+		font-size: 30px;
+		margin-top: 20px;
+	}
 	.section_renewal main h1 {
 		font-size: 35px;
 		line-height: 45px;
@@ -1246,7 +1257,7 @@ button:focus {
 	}
 	.img_smart_learning,
 	.img_graph {
-		width: 80%;
+		width: 95%;
 	}
 	.img_compare_ab {
 		width: 100px;
@@ -1385,7 +1396,12 @@ button:focus {
 	.mypool_habit .habit_wrapper h1 {
 		line-height: 30px;
 	}
-
+	.eng_wrapper div,
+	.cn_wrapper div,
+	.toeic_wrapper div {
+		width: 70px;
+		height: 70px;
+	}
 	.with_mypool img {
 		width: 120px;
 	}
