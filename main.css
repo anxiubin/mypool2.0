@@ -277,6 +277,7 @@ button:focus {
 }
 .section_subscribe_service .img_phone_mypool {
 	margin: 5px;
+	width: 200px;
 }
 .section_subscribe_service .content {
 	color: #fff;
@@ -359,8 +360,9 @@ button:focus {
 	border-top: 1px solid #fff;
 }
 .img_puzzle {
-	width: 100%;
-	margin: 0;
+	width: 80%;
+	margin: auto;
+	display: block;
 }
 
 /****************** REASONABLE ******************/
@@ -921,6 +923,12 @@ button:focus {
 /***************** TABLET ******************/
 
 @media all and (max-width: 1024px) {
+	.section_subscribe_service .service_wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
 	.section_service_detail h3 {
 		font-size: 25px;
 	}
@@ -1155,12 +1163,7 @@ button:focus {
 	.section.section_subscribe_service {
 		padding: 70px 30px;
 	}
-	.section_subscribe_service .service_wrapper {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
+
 	.section_subscribe_service .content {
 		margin-left: 0;
 		margin-top: 30px;
@@ -1172,19 +1175,29 @@ button:focus {
 		font-size: 25px;
 		line-height: 35px;
 	}
+	.section_subscribe_service .img_phone_mypool {
+		width: 160px;
+	}
 	.mypool_puzzle h1 {
 		font-size: 30px;
 		line-height: 40px;
 		padding: 0 10px;
+		margin: 40px 0;
 	}
 	.mypool_puzzle h2 {
 		font-size: 20px;
 		line-height: 30px;
 		padding: 0 10px;
 	}
+	.mypool_puzzle_content {
+		margin: 40px 0;
+	}
 	.section_reasonable_title h1 {
 		font-size: 30px;
 		line-height: 40px;
+	}
+	.img_puzzle {
+		width: 100%;
 	}
 	.cost_group {
 		font-size: 18px;
@@ -1359,6 +1372,9 @@ button:focus {
 	.section_subscribe_service .content h2 {
 		font-size: 16px;
 		line-height: 26px;
+	}
+	.section_subscribe_service .img_phone_mypool {
+		width: 110px;
 	}
 	.mypool_habit {
 		font-size: 25px;
