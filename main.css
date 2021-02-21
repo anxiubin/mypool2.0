@@ -926,6 +926,85 @@ button:focus {
 .review_name_group {
 	margin-left: 15px;
 }
+
+/***************** FOOTER ******************/
+
+.btn.policy_user {
+	font-size: 12px;
+}
+.modal-body {
+	padding: 7rem;
+}
+.modal-body h1 {
+	margin-bottom: 70px;
+}
+.btn-primary:focus {
+	color: #fff;
+	border-color: unset;
+	box-shadow: unset;
+}
+@media (min-width: 769px) {
+	.webView {
+		border-top: 0.1rem solid #e5e5e5;
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	footer > div {
+		position: relative;
+		width: 1024px;
+		margin: 2rem auto 4rem;
+	}
+	footer .txt {
+		font-size: 14px;
+		color: #666;
+		line-height: 25px;
+		margin-bottom: 1rem;
+	}
+	footer .copy {
+		font-size: 12px;
+		color: #666;
+		margin-bottom: 2rem;
+	}
+	footer .link {
+		font-size: 12px;
+		color: #333;
+	}
+}
+
+@media (max-width: 768px) {
+	footer {
+		border-top: 0.1rem solid #e5e5e5;
+	}
+
+	footer > div {
+		position: relative;
+		width: 100%;
+		padding: 10px 10px;
+	}
+	footer .txt {
+		font-size: 12px;
+		color: #666;
+		margin-bottom: 1rem;
+	}
+	footer .copy {
+		font-size: 11px;
+		color: #666;
+		margin-bottom: 2rem;
+	}
+	footer .link {
+		font-size: 11px;
+		color: #333;
+	}
+	footer .txt span,
+	footer .link span {
+		padding-right: 1rem;
+		margin-right: 0.8rem;
+		font-weight: 700;
+		line-height: 1.2rem;
+	}
+}
+
 /***************** TABLET ******************/
 
 @media all and (max-width: 1024px) {
