@@ -897,7 +897,7 @@ button:focus {
 	font-size: 12px;
 }
 .modal-body {
-	padding: 7rem;
+	line-height: 1.5rem;
 }
 .modal-body h1 {
 	margin-bottom: 70px;
@@ -908,6 +908,9 @@ button:focus {
 	box-shadow: unset;
 }
 @media (min-width: 769px) {
+	.modal-body {
+		padding: 7rem;
+	}
 	.webView {
 		border-top: 0.1rem solid #e5e5e5;
 		margin-top: 20px;
@@ -937,6 +940,9 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+	.modal-body {
+		padding: 2rem;
+	}
 	footer {
 		border-top: 0.1rem solid #e5e5e5;
 	}
