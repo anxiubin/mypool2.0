@@ -421,6 +421,15 @@ button:focus {
 .toeic_wrapper {
 	margin-bottom: 20px;
 }
+.eng_wrapper div,
+.cn_wrapper div,
+.toeic_wrapper div {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 5px auto 5px;
+}
+
 .eng_wrapper p,
 .cn_wrapper p,
 .toeic_wrapper p {
@@ -430,34 +439,22 @@ button:focus {
 	margin-top: 20px;
 }
 .eng_wrapper .eng {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
 	background-image: url(./assets/woman_eng.png);
 	background-position: left;
-	margin: 5px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .cn_wrapper .cn {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
 	background-image: url(./assets/woman_cn.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 5px;
 }
 .toeic_wrapper .toeic {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
 	background-image: url(./assets/woman_toeic.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 5px;
 }
 .cost_line {
 	width: 87px;
@@ -865,7 +862,7 @@ button:focus {
 .video_choice {
 	margin-bottom: 150px;
 }
-.review_group {
+.review_group_pc {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -874,57 +871,24 @@ button:focus {
 	justify-content: space-between;
 	width: 100%;
 }
-.review_wrapper {
-	background-repeat: no-repeat;
-	background-size: contain;
-	font-family: "NanumSquare";
-	font-weight: 500;
-	padding: 30px 0;
-	width: 325px;
-	height: 350px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-}
-.review_wrapper .review_text {
-	margin-left: 15px;
-}
-.review_wrapper h2 {
-	font-size: 20px;
-	color: #ff5633;
-	font-weight: 700;
-	margin-bottom: 30px;
-}
-.review_wrapper p {
-	font-size: 17px;
-	line-height: 25px;
-	padding: 0 10px;
-}
-.review_wrapper h3 {
-	font-size: 13px;
-	line-height: 20px;
-	margin-bottom: 85px;
+.review_group_mobile {
+	display: none;
 }
 .review_eng {
 	margin-top: 80px;
-	background-image: url(./assets/review_eng.png);
-}
-.review_cn {
-	background-image: url(./assets/review_cn.png);
 }
 .review_toeic {
 	margin-top: 80px;
-	background-image: url(./assets/review_toeic.png);
 }
 .review_name_group {
 	margin-left: 15px;
+}
+.review_wrapper {
+	width: 30%;
+}
+.review_wrapper img {
+	width: 100%;
+	max-width: 328px;
 }
 
 /***************** FOOTER ******************/
@@ -1073,30 +1037,15 @@ button:focus {
 	.maximized_effect aside {
 		min-width: 480px;
 	}
-	.review_wrapper {
-		width: 260px;
-		height: 260px;
-		max-height: 260px;
-	}
-	.review_wrapper h2 {
-		font-size: 15px;
-		line-height: 18px;
-	}
-	.review_wrapper p {
-		font-size: 13px;
-		line-height: 17px;
-	}
-	.icon_stars {
-		width: 70px;
-	}
-	.review_wrapper h3 {
-		font-size: 10px;
-		line-height: 20px;
-		margin-bottom: 60px;
-	}
 }
 @media all and (max-width: 850px) {
-	.review_group {
+	.review_group_pc {
+		display: none;
+	}
+	.review_group_mobile {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
@@ -1108,73 +1057,20 @@ button:focus {
 		-ms-flex-align: center;
 		align-items: center;
 	}
-	.review_wrapper {
-		width: 480px;
-		height: 300px;
-		margin-top: 20px;
-		max-height: unset;
-	}
-	.review_wrapper.review_cn .review_text {
-		margin-left: 65px;
-	}
-	.review_eng {
-		background-image: url(./assets/m_review_eng.png);
-		background-position: center;
-	}
-	.review_cn {
-		background-image: url(./assets/m_review_cn.png);
-		background-position: center;
-	}
-	.review_toeic {
-		background-image: url(./assets/m_review_toeic.png);
-		background-position: center;
-	}
-	.review_text br {
-		display: none;
-	}
-	.review_wrapper .review_text {
-		width: 80%;
-		margin: auto;
-		margin-top: 30px;
-		margin-left: 25px;
-	}
-	.review_cn .review_text {
-		width: 70%;
-	}
 	.choice_review h1 {
 		font-size: 30px;
 		line-height: 35px;
 	}
-	.review_name_group.cn {
-		margin-left: 25%;
-	}
-	.review_wrapper h2 {
-		font-size: 23px;
-		line-height: 28px;
-		margin-bottom: 15px;
-	}
-	.review_wrapper p {
-		font-size: 16px;
-		line-height: 20px;
-	}
-	.icon_stars {
-		width: 70px;
-	}
-	.review_wrapper h3 {
-		font-size: 11px;
-		line-height: 15px;
-		margin-bottom: 80px;
-	}
-	.review_name_group.eng,
-	.review_name_group.toeic {
-		text-align: right;
-		width: 70%;
-	}
-	.review_name_group.cn {
-		width: 40%;
-	}
 	.choice_review {
 		padding: 20px !important;
+	}
+	.review_wrapper {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+	.review_wrapper img {
+		max-width: 400px;
+		margin: auto;
 	}
 }
 
@@ -1210,7 +1106,6 @@ button:focus {
 	}
 	.section_intro h1 img {
 		width: 80px;
-		margin-top: 10px;
 	}
 	.section_intro h2 {
 		font-size: 18px;
@@ -1268,6 +1163,7 @@ button:focus {
 		line-height: 40px;
 		padding: 0 10px;
 		margin: 40px 0;
+		max-width: 300px;
 	}
 	.mypool_puzzle h2 {
 		font-size: 20px;
@@ -1278,8 +1174,8 @@ button:focus {
 		margin: 40px 0;
 	}
 	.section_reasonable_title h1 {
-		font-size: 30px;
-		line-height: 40px;
+		font-size: 25px;
+		line-height: 35px;
 	}
 	.img_puzzle {
 		width: 100%;
@@ -1587,31 +1483,6 @@ button:focus {
 		justify-content: center;
 	}
 
-	.review_wrapper {
-		width: 300px;
-		height: 210px;
-		padding: 0;
-	}
-	.review_wrapper h2 {
-		font-size: 14px;
-		line-height: 16px;
-		margin-bottom: 10px;
-	}
-	.review_wrapper p {
-		font-size: 10px;
-		line-height: 12px;
-	}
-	.icon_stars {
-		width: 50px;
-	}
-	.review_wrapper h3 {
-		font-size: 10px;
-		line-height: 12px;
-		margin-bottom: 80px;
-	}
-	.review_wrapper.review_cn .review_text {
-		margin-left: 45px;
-	}
 	.choice_review h1 {
 		font-size: 20px;
 		line-height: 25px;
