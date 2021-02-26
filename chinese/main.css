@@ -1,5 +1,5 @@
 .section_cn_intro {
-	background-image: url(/assets/cn_intro_bg.png);
+	background-image: url(../assets/cn_intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -19,7 +19,7 @@
 	background-color: #f3f3f3;
 }
 .section_pronunciation {
-	background-image: url(/assets/section_pronunciation_bg.png);
+	background-image: url(../assets/section_pronunciation_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

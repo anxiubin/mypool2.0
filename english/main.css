@@ -1,5 +1,5 @@
 .section_eng_intro {
-	background-image: url(/assets/eng_intro_bg.png);
+	background-image: url(../assets/eng_intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -18,7 +18,7 @@
 	max-height: 794px;
 }
 .section_style {
-	background-image: url(/assets/section_style_bg.png);
+	background-image: url(../assets/section_style_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
