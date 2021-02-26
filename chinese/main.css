@@ -1,0 +1,29 @@
+.section_cn_intro {
+	background-image: url(../assets/cn_intro_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0 0 80px;
+}
+.section_cn_intro img,
+.section_common img,
+.section_feature img,
+.section_intonation img,
+.section_pronunciation img,
+.section_program img {
+	display: block;
+	margin: auto;
+}
+.section_common,
+.section_program {
+	background-color: #f3f3f3;
+}
+.section_pronunciation {
+	background-image: url(../assets/section_pronunciation_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.section_pronunciation img {
+	margin-top: 80px;
+}

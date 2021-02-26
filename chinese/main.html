@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"
+		/>
+		<meta
+			name="description"
+			content="비스포크 월 구독 어학서비스! 나에게 맞는 어학콘텐츠를 구독하세요."
+		/>
+		<meta
+			name="keywords"
+			content="마이풀, 조승연, 영어, 토익, 중국어, 비스포크, 마풀영어, 마풀중국어"
+		/>
+		<meta property="og:url" content="https://imypool.kr" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="마이풀-영어 중국어 토익을 한번에" />
+		<meta
+			property="og:description"
+			content="지금 마이풀에 회원가입하면 1개월 무료!"
+		/>
+		<meta property="og:image" content="표시되는 이미지" />
+		<meta name="twitter:card" content="summary" />
+
+		<title>마이풀-영어 중국어 토익을 한번에</title>
+
+		<link rel="shortcut icon" href="이미지경로" type="image/x-icon" />
+		<link rel="icon" href=="이미지경로" type="image/x-icon" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="../main.css" />
+		<link rel="stylesheet" type="text/css" href="./main.css" />
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="body_container">
+			<div id="headers"></div>
+			<section class="section_cn_intro">
+				<img src="../assets/cn_text_intro.png" alt="" />
+			</section>
+
+			<section class="section section_feature">
+				<img src="../assets/section_chinese_feature.png" alt="" />
+			</section>
+
+			<section class="section section_common">
+				<img src="../assets/section_common_chinese.png" alt="" />
+			</section>
+
+			<section class="section section_intonation">
+				<img src="../assets/section_color_intonation.png" alt="" />
+			</section>
+
+			<section class="section section_pronunciation">
+				<img src="../assets/section_pronunciation.png" alt="" />
+			</section>
+
+			<section class="section section_program">
+				<img src="../assets/section_program.png" alt="" />
+			</section>
+		</div>
+
+		<div id="footers"></div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$("#headers").load("../common/header.html")
+				$("#footers").load("../common/footer.html")
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+.section_eng_intro {
+	background-image: url(../assets/eng_intro_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0 0 80px;
+}
+.section_eng_intro img,
+.section_teachers img,
+.section_theme img,
+.section_style img {
+	display: block;
+	margin: auto;
+}
+.section_theme {
+	background-color: #202020;
+	padding-bottom: 0;
+	max-height: 794px;
+}
+.section_style {
+	background-image: url(../assets/section_style_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
