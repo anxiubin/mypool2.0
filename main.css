@@ -169,7 +169,11 @@ header .header_skt {
 	width: 114px;
 }
 .menu_group {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 .menu_group a {
@@ -228,16 +232,6 @@ header .header_skt {
 }
 
 .section_features {
-	background-image: -moz-linear-gradient(
-		90deg,
-		rgb(252, 208, 31) 0%,
-		rgb(251, 140, 50) 33%
-	);
-	background-image: -webkit-linear-gradient(
-		90deg,
-		rgb(252, 208, 31) 0%,
-		rgb(251, 140, 50) 33%
-	);
 	background-image: -ms-linear-gradient(
 		90deg,
 		rgb(252, 208, 31) 0%,
@@ -264,6 +258,12 @@ header .header_skt {
 	width: 100%;
 	margin: auto;
 	padding: 13px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 .company_link,
 .policy_use {
@@ -290,6 +290,7 @@ header .header_skt {
 }
 .btn-check:focus + .btn,
 .btn:focus {
+	-webkit-box-shadow: unset;
 	box-shadow: unset;
 }
 
@@ -305,8 +306,15 @@ header .header_skt {
 	max-width: 1280px;
 	width: 100%;
 	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
 	flex-direction: row;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
 	align-items: flex-start;
 }
 .company_info_contents_wrapper img {
@@ -420,4 +428,24 @@ header .header_skt {
 }
 .section_real_smartlearning {
 	background-color: #ffc600;
+}
+.example {
+	display: -ms-grid;
+	display: grid;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(white),
+		to(black)
+	);
+	background: -o-linear-gradient(top, white, black);
+	background: linear-gradient(to bottom, white, black);
 }
