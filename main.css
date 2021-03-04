@@ -179,6 +179,8 @@ header .header_skt {
 	padding-left: 100px;
 }
 
+/* ================================  INDEX PAGE  ================================= */
+
 .section_intro {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -323,4 +325,99 @@ header .header_skt {
 }
 .modal-body h1 {
 	margin-bottom: 70px;
+}
+
+/* ================================  ENGLISH PAGE  ================================= */
+
+.section_cn_intro {
+	background-image: url(./assets/cn_intro_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0 0 80px;
+}
+.section_cn_intro img,
+.section_common img,
+.section_feature img,
+.section_intonation img,
+.section_pronunciation img,
+.section_program img {
+	display: block;
+	margin: auto;
+}
+.section_common,
+.section_program {
+	background-color: #f3f3f3;
+}
+.section_pronunciation {
+	background-image: url(./assets/section_pronunciation_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.section_pronunciation img {
+	margin-top: 80px;
+}
+
+/* ================================  CHINESE PAGE  ================================= */
+
+.section_eng_intro {
+	background-image: url(./assets/eng_intro_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0 0 80px;
+}
+.section_eng_intro img,
+.section_teachers img,
+.section_theme img,
+.section_style img,
+.section_eng_curriculum img {
+	display: block;
+	margin: auto;
+}
+.section_theme {
+	background-color: #202020;
+}
+.section_style {
+	background-image: url(./assets/section_style_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.section_theme {
+	background-image: url(./assets/section_theme_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* ================================  TOEIC PAGE  ================================= */
+
+.section_toeic_intro {
+	background-image: url(./assets/toeic_intro_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0 0 80px;
+}
+.section_toeic_intro img,
+.section_unlimited_class img,
+.section_program img,
+.section_collabo img,
+.section_ten_minute img,
+.section_toeic_curriculum img,
+.section_real_smartlearning img {
+	display: block;
+	margin: auto;
+}
+.section_program,
+.section_ten_minute {
+	background-color: #f8f8f8;
+}
+.section_toeic_curriculum {
+	background-color: #4a4a4a;
+}
+.section_real_smartlearning {
+	background-color: #ffc600;
 }
