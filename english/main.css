@@ -8,17 +8,22 @@
 .section_eng_intro img,
 .section_teachers img,
 .section_theme img,
-.section_style img {
+.section_style img,
+.section_eng_curriculum img {
 	display: block;
 	margin: auto;
 }
 .section_theme {
 	background-color: #202020;
-	padding-bottom: 0;
-	max-height: 794px;
 }
 .section_style {
 	background-image: url(../assets/section_style_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.section_theme {
+	background-image: url(../assets/section_theme_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
