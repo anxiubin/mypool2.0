@@ -186,7 +186,7 @@ header .header_skt {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	background-image: url(./assets/intro_bg.png);
+	background-image: url(./src/assets/intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -330,7 +330,7 @@ header .header_skt {
 /* ================================  ENGLISH PAGE  ================================= */
 
 .section_cn_intro {
-	background-image: url(./assets/cn_intro_bg.png);
+	background-image: url(./src/assets/cn_intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -350,7 +350,7 @@ header .header_skt {
 	background-color: #f3f3f3;
 }
 .section_pronunciation {
-	background-image: url(./assets/section_pronunciation_bg.png);
+	background-image: url(./src/assets/section_pronunciation_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -362,7 +362,7 @@ header .header_skt {
 /* ================================  CHINESE PAGE  ================================= */
 
 .section_eng_intro {
-	background-image: url(./assets/eng_intro_bg.png);
+	background-image: url(./src/assets/eng_intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -380,13 +380,13 @@ header .header_skt {
 	background-color: #202020;
 }
 .section_style {
-	background-image: url(./assets/section_style_bg.png);
+	background-image: url(./src/assets/section_style_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .section_theme {
-	background-image: url(./assets/section_theme_bg.png);
+	background-image: url(./src/assets/section_theme_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -395,7 +395,7 @@ header .header_skt {
 /* ================================  TOEIC PAGE  ================================= */
 
 .section_toeic_intro {
-	background-image: url(./assets/toeic_intro_bg.png);
+	background-image: url(./src/assets/toeic_intro_bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
