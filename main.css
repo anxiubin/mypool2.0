@@ -136,7 +136,54 @@ button:focus {
 .show {
 	display: block !important;
 }
+.hidden {
+	display: none !important;
+}
+.btn_top {
+	position: fixed;
+	bottom: 100px;
+	right: 0;
+}
+.sticky_footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.sticky_footer_wrapper {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+	color: #ffcc00;
+	font-size: 24px;
+	font-family: "NotoSansKR";
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sticky_footer .title span {
+	font-style: italic;
+}
+.sticky_footer .title {
+	margin-right: 30px;
+}
 
+.sticky_footer_button_group a {
+	margin-right: 5px;
+}
+.sticky_footer_button_group img {
+	width: 134px;
+}
+.btn_close {
+	position: absolute;
+	top: 30px;
+	right: 20%;
+}
+.btn_close img {
+	width: 16px;
+}
 /****************** NAV ******************/
 
 .section_nav {
