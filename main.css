@@ -242,6 +242,14 @@ header .header_skt {
 	background-position: center;
 	background-size: cover;
 	padding: 100px 0 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 0;
+}
+.intro_text_wrapper {
+	margin-bottom: 150px;
 }
 .text_intro_group,
 .download_group {
@@ -266,6 +274,9 @@ header .header_skt {
 }
 .download_group a {
 	padding-right: 8px;
+}
+.model_wrapper {
+	height: 817px;
 }
 .seciont_subscribe img,
 .section_features img,
