@@ -490,7 +490,8 @@ header .header_skt {
 .section_collabo img,
 .section_ten_minute img,
 .section_toeic_curriculum img,
-.section_real_smartlearning img {
+.section_real_smartlearning img,
+.section_goals img {
 	display: block;
 	margin: auto;
 }
