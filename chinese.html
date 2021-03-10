@@ -94,6 +94,14 @@
 				$(".btn_top").click(function () {
 					window.scrollTo(0, 0)
 				})
+
+				if (
+					window?.navigator.userAgent.match(
+						/Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/
+					)
+				) {
+					window.location.href = "/m/chinese.html"
+				}
 			})
 		</script>
 	</body>
