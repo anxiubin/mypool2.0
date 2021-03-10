@@ -1,80 +1,80 @@
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 300;
-	src: url("../font/TTComsetakL.eot"),
-		url("../font/TTComsetakL.eot?#iefix") format("embedded-opentype"),
-		url("../font/TTComsetakL.woff") format("woff"),
-		url("../font/TTComsetakL.ttf") format("truetype"),
-		url("../font/TTComsetakL.otf") format("opentype");
+	src: url("../src/font/TTComsetakL.eot"),
+		url("../src/font/TTComsetakL.eot?#iefix") format("embedded-opentype"),
+		url("../src/font/TTComsetakL.woff") format("woff"),
+		url("../src/font/TTComsetakL.ttf") format("truetype"),
+		url("../src/font/TTComsetakL.otf") format("opentype");
 }
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 500;
-	src: url("../font/TTComsetakR.eot"),
-		url("../font/TTComsetakR.eot?#iefix") format("embedded-opentype"),
-		url("../font/TTComsetakR.woff") format("woff"),
-		url("../font/TTComsetakR.ttf") format("truetype"),
-		url("../font/TTComsetakR.otf") format("opentype");
+	src: url("../src/font/TTComsetakR.eot"),
+		url("../src/font/TTComsetakR.eot?#iefix") format("embedded-opentype"),
+		url("../src/font/TTComsetakR.woff") format("woff"),
+		url("../src/font/TTComsetakR.ttf") format("truetype"),
+		url("../src/font/TTComsetakR.otf") format("opentype");
 }
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 700;
-	src: url("../font/TTComsetakB.eot"),
-		url("../font/TTComsetakB.eot?#iefix") format("embedded-opentype"),
-		url("../font/TTComsetakB.woff") format("woff"),
-		url("../font/TTComsetakB.ttf") format("truetype"),
-		url("../font/TTComsetakB.otf") format("opentype");
+	src: url("../src/font/TTComsetakB.eot"),
+		url("../src/font/TTComsetakB.eot?#iefix") format("embedded-opentype"),
+		url("../src/font/TTComsetakB.woff") format("woff"),
+		url("../src/font/TTComsetakB.ttf") format("truetype"),
+		url("../src/font/TTComsetakB.otf") format("opentype");
 }
 @font-face {
 	font-family: "TMONBlack";
 	font-weight: 700;
-	src: url("../font/TMONBlack.ttf") format("truetype");
+	src: url("../src/font/TMONBlack.ttf") format("truetype");
 }
 @font-face {
 	font-family: "GmarketSans";
 	font-weight: 300;
-	src: url("../font/GmarketSansTTFLight.ttf") format("truetype"),
-		url("../font/GmarketSansTTFLight.otf") format("opentype");
+	src: url("../src/font/GmarketSansTTFLight.ttf") format("truetype"),
+		url("../src/font/GmarketSansTTFLight.otf") format("opentype");
 }
 @font-face {
 	font-family: "GmarketSans";
 	font-weight: 500;
-	src: url("../font/GmarketSansTTFMedium.ttf") format("truetype"),
-		url("../font/GmarketSansTTFMedium.otf") format("opentype");
+	src: url("../src/font/GmarketSansTTFMedium.ttf") format("truetype"),
+		url("../src/font/GmarketSansTTFMedium.otf") format("opentype");
 }
 @font-face {
 	font-family: "GmarketSans";
 	font-weight: 700;
-	src: url("../font/GmarketSansTTFBold.ttf") format("truetype"),
-		url("../font/GmarketSansTTFBold.otf") format("opentype");
+	src: url("../src/font/GmarketSansTTFBold.ttf") format("truetype"),
+		url("../src/font/GmarketSansTTFBold.otf") format("opentype");
 }
 @font-face {
 	font-family: "NotoSansKR";
 	font-weight: 300;
-	src: url("../font/NotoSansKR-Thin.woff") format("woff"),
-		url("../font/NotoSansKR-Thin.ttf") format("truetype"),
-		url("../font/NotoSansKR-Thin.otf") format("opentype");
+	src: url("../src/font/NotoSansKR-Thin.woff") format("woff"),
+		url("../src/font/NotoSansKR-Thin.ttf") format("truetype"),
+		url("../src/font/NotoSansKR-Thin.otf") format("opentype");
 }
 @font-face {
 	font-family: "NotoSansKR";
 	font-weight: 500;
-	src: url("../font/NotoSansKR-DemiLight.woff") format("woff"),
-		url("../font/NotoSansKR-DemiLight.ttf") format("truetype"),
-		url("../font/NotoSansKR-DemiLight.otf") format("opentype");
+	src: url("../src/font/NotoSansKR-DemiLight.woff") format("woff"),
+		url("../src/font/NotoSansKR-DemiLight.ttf") format("truetype"),
+		url("../src/font/NotoSansKR-DemiLight.otf") format("opentype");
 }
 @font-face {
 	font-family: "NotoSansKR";
 	font-weight: 700;
-	src: url("../font/NotoSansKR-Medium.woff") format("woff"),
-		url("../font/NotoSansKR-Medium.ttf") format("truetype"),
-		url("../font/NotoSansKR-Medium.otf") format("opentype");
+	src: url("../src/font/NotoSansKR-Medium.woff") format("woff"),
+		url("../src/font/NotoSansKR-Medium.ttf") format("truetype"),
+		url("../src/font/NotoSansKR-Medium.otf") format("opentype");
 }
 @font-face {
 	font-family: "NotoSansKR";
 	font-weight: 900;
-	src: url("../font/NotoSansKR-Black.woff") format("woff"),
-		url("../font/NotoSansKR-Black.ttf") format("truetype"),
-		url("../font/NotoSansKR-Black.otf") format("opentype");
+	src: url("../src/font/NotoSansKR-Black.woff") format("woff"),
+		url("../src/font/NotoSansKR-Black.ttf") format("truetype"),
+		url("../src/font/NotoSansKR-Black.otf") format("opentype");
 }
 
 /****************** COMMON ******************/
