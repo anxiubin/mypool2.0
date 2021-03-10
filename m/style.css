@@ -301,6 +301,9 @@ header {
 }
 
 /****************** ENGLISH  ******************/
+.section_eng_curriculum {
+	padding-bottom: 40px;
+}
 .section_eng_text_wrapper {
 	padding: 60px 30px 30px;
 }
