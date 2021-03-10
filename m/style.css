@@ -209,8 +209,14 @@ header {
 }
 .logo_group {
 	padding: 10px 10px 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
 	align-items: flex-end;
 	border-bottom: 1px solid #eeefef;
 }
@@ -228,7 +234,10 @@ header {
 .menu_group {
 	border-bottom: 1px solid #d6d6d6;
 	padding: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-pack: distribute;
 	justify-content: space-around;
 }
 .menu_group a {
@@ -257,8 +266,14 @@ header {
 	margin-bottom: 5px;
 }
 .download_group {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 .download_group a {
@@ -315,15 +330,12 @@ header {
 .swiper-slide {
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	-webkit-justify-content: center;
 	justify-content: center;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	-webkit-align-items: center;
 	align-items: center;
 }
 .swiper-slide img {
@@ -341,6 +353,8 @@ header {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-align: baseline;
+	-ms-flex-align: baseline;
 	align-items: baseline;
 	padding: 20px 30px;
 }
