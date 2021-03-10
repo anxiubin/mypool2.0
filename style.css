@@ -1,8 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 300;
-	src: url("/font/TTComsetakL.eot"),
-		url("/font/TTComsetakL.eot?#iefix") format("embedded-opentype"),
+	src: url("./font/TTComsetakL.eot"),
+		url("./font/TTComsetakL.eot?#iefix") format("embedded-opentype"),
 		url("./font/TTComsetakL.woff") format("woff"),
 		url("./font/TTComsetakL.ttf") format("truetype"),
 		url("./font/TTComsetakL.otf") format("opentype");
@@ -10,8 +17,8 @@
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 500;
-	src: url("/font/TTComsetakR.eot"),
-		url("/font/TTComsetakR.eot?#iefix") format("embedded-opentype"),
+	src: url("./font/TTComsetakR.eot"),
+		url("./font/TTComsetakR.eot?#iefix") format("embedded-opentype"),
 		url("./font/TTComsetakR.woff") format("woff"),
 		url("./font/TTComsetakR.ttf") format("truetype"),
 		url("./font/TTComsetakR.otf") format("opentype");
@@ -19,8 +26,8 @@
 @font-face {
 	font-family: "TTComsetak";
 	font-weight: 700;
-	src: url("/font/TTComsetakB.eot"),
-		url("/font/TTComsetakB.eot?#iefix") format("embedded-opentype"),
+	src: url("./font/TTComsetakB.eot"),
+		url("./font/TTComsetakB.eot?#iefix") format("embedded-opentype"),
 		url("./font/TTComsetakB.woff") format("woff"),
 		url("./font/TTComsetakB.ttf") format("truetype"),
 		url("./font/TTComsetakB.otf") format("opentype");
@@ -159,8 +166,14 @@ button:focus {
 	font-size: 24px;
 	font-family: "NotoSansKR";
 	font-weight: 700;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 .sticky_footer .title span {
