@@ -144,6 +144,9 @@ button:focus {
 	bottom: 150px;
 	right: 0;
 }
+.btn_top_bottom {
+	bottom: 50px !important;
+}
 .btn_top img {
 	width: 70px;
 }
