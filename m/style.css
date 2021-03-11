@@ -345,6 +345,10 @@ header {
 .swiper-button-prev {
 	color: #2d2d2d;
 }
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+	outline: none;
+}
 
 /****************** FOOTER  ******************/
 
