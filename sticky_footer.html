@@ -25,6 +25,7 @@
 	$(document).ready(function () {
 		$(".btn_close").click(function () {
 			$(".sticky_footer").addClass("hidden")
+			$(".btn_top").addClass("btn_top_bottom")
 			window?.sessionStorage.setItem("isStickyFooterClosed", "true")
 		})
 
@@ -33,6 +34,7 @@
 		)
 		if (stickyFooterSession) {
 			$(".sticky_footer").addClass("hidden")
+			$(".btn_top").addClass("btn_top_bottom")
 		}
 	})
 </script>

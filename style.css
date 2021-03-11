@@ -144,6 +144,9 @@ button:focus {
 	bottom: 100px;
 	right: 0;
 }
+.btn_top_bottom {
+	bottom: 40px !important;
+}
 .sticky_footer {
 	position: fixed;
 	bottom: 0;
