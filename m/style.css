@@ -146,7 +146,7 @@ button:focus {
 	z-index: 10;
 }
 .btn_top_bottom {
-	bottom: 50px !important;
+	bottom: 30px !important;
 }
 .btn_top img {
 	width: 70px;
