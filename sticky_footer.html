@@ -25,6 +25,14 @@
 	$(document).ready(function () {
 		$(".btn_close").click(function () {
 			$(".sticky_footer").addClass("hidden")
+			window?.sessionStorage.setItem("isStickyFooterClosed", "true")
 		})
+
+		const stickyFooterSession = JSON.parse(
+			window?.sessionStorage.getItem("isStickyFooterClosed")
+		)
+		if (stickyFooterSession) {
+			$(".sticky_footer").addClass("hidden")
+		}
 	})
 </script>

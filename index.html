@@ -822,6 +822,7 @@
 				})
 				$(".btn_close").click(function () {
 					$(".sticky_footer").addClass("hidden")
+					window?.sessionStorage.setItem("isStickyFooterClosed", "true")
 				})
 
 				if (
@@ -830,6 +831,13 @@
 					)
 				) {
 					window.location.href = "/m"
+				}
+
+				const stickyFooterSession = JSON.parse(
+					window?.sessionStorage.getItem("isStickyFooterClosed")
+				)
+				if (stickyFooterSession) {
+					$(".sticky_footer").addClass("hidden")
 				}
 			})
 		</script>
